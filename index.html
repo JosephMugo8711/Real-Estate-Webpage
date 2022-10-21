@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Real Estate</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <!--<li class="logo">Domain</li>-->
+            <li><a href="#service">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>        
+    </div>
+    <div class="banner" id="home">
+        <div class="banner-text">
+            <h2>Creative Agency</h2>
+            <p>Rent, Buy and Sell properties in Kenya</p>
+            <a href="#">Learn More</a>
+        </div>
+    </div>
+    
+    <div class="about" id="about">
+        <div class="section-header">
+            <h2>About US</h2>
+            <p>Transforming neighborhoods. Transforming homes. Transforming lives</p>
+        </div>
+        <div class="about-content">
+            <div class="single-about">
+                <img src="img/2.jpg" alt="">
+                <div class="about-text">
+                    <h2>Best Housing Agency</h2>
+                    <p>Our mission is to provide quality vacation rental houses and condos in various price ranges to family groups throughout the year. We seek to better represent our 
+                        clients and customers by continuously building knowledge, competence, and by being honorable, honest, and fair in all dealings</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="service" id="service">
+        <div class="section-header">
+            <h2>Our Services</h2>
+            <p>We are an Estate Agency that allows you to run as an independent Property Practitioner while being totally dependable on our services.</p>
+        </div>
+        <div class="service-content">
+            <div class="single-service">
+                <img src="img/3.jpg" alt="">
+                <h2>Comfortable Apartment</h2>
+                <p>This apartment offers the comfort and functionality of a normal house in 50 sq.m. of available space. </p>
+            </div>
+            <div class="single-service">
+                <img src="img/4.jpg" alt="">
+                <h2>Affordable Price</h2>
+                <p>We sell affordable houses that meet your necessary demands</p>
+            </div>
+            <div class="single-service">
+                <img src="img/5.jpg" alt="">
+                <h2>Luxury Designs</h2>
+                <p>We embrace the true joy of living and the beauty of the surrounding nature or vibrant city landscape</p>
+            </div>
+        </div>
+    </div>
+    <div class="contact" id="contact">
+        <div class="section-header">
+            <h2>Contact us</h2>
+            <p>We are always ensure that you achieve your dream home that accomodates all your needs and family </p>
+        </div>
+        <div class="single-contact">
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Password">
+            <textarea cols="30" rows="10" placeholder="Query"></textarea>
+            <a href="#">Submit</a>
+        </div>
+    </div>
+    <footer>
+        <p>Copyright By Joseph Wamiti</p>
+    </footer>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(window).on("scroll", function() {
+            if($(window).scrollTop() > 50) {
+                $(".header").addClass("active");
+            } else {                
+               $(".header").removeClass("active");
+            }
+        });
+    </script>
+</body>
+</html>

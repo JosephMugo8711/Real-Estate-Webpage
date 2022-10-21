@@ -1,0 +1,2 @@
+// For license information, see `https://assets.adobedtm.com/d4d114c60e50/62a01bbd0ef3/858268bae82b/RC55cfbcf9402e4601a2e3bd31453dd196-source.js`.
+_satellite.__registerScript('https://assets.adobedtm.com/d4d114c60e50/62a01bbd0ef3/858268bae82b/RC55cfbcf9402e4601a2e3bd31453dd196-source.min.js', "var w_sp=_satellite,C0004=w_sp.groupEnabled(\"C0004\");C0004&&w_sp.track(\"trackConsent\");");
